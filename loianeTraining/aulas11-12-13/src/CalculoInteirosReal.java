@@ -1,5 +1,3 @@
-package loianeTraining.src.aula13;
-
 import java.util.Scanner;
 
 public class CalculoInteirosReal {
