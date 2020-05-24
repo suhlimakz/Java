@@ -10,7 +10,7 @@ public class MaiorTresNumeros {
     int segundoNumero = scan.nextInt();
     int terceiroNumero = scan.nextInt();
 
-    if( primeiroNumero > segundoNumero || primeiroNumero > terceiroNumero ) {
+    if( primeiroNumero > segundoNumero && primeiroNumero > terceiroNumero ) {
       System.out.println( primeiroNumero + " é o maior numero." );
     } else if ( segundoNumero > terceiroNumero ) {
       System.out.println( segundoNumero + " é o maior número." );
