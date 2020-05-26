@@ -25,7 +25,5 @@ public class MaiorMenorTresNumeros {
     } else {
       System.out.println( terceiroNumero + " é o menor número." );
     }
-
-
   }
 }
