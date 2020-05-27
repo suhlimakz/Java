@@ -70,7 +70,7 @@ public class FolhaDePagamento {
         System.out.println( "Total de descontos" + "  : R$ " + totalDeDescontos ); 
         System.out.println( "Salário líquido " + "  : R$ " + salarioLiquido + "\n");
 
-    } else if( salarioBruto < 2500 ) {
+    } else if( salarioBruto > 2500 ) {
         double descontoIR = salarioBruto * perctIR3;
         double descontoINSS = salarioBruto * perctINSS;
         double descontoFGTS = salarioBruto * perctFGTS;
